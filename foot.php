@@ -22,6 +22,20 @@
                 &copy; Copyright Fikomubk | 2020 - Allright Reserve
             </div>
         </div>
-    </footer>
+    </footer></div>
+    <script>
+        $('#menu-toggle').click(function(){
+            $(this).toggleClass('open');
+            if ($(this).hasClass('open')) {
+                $('.float').addClass('active');
+                $('.menu-mobile').addClass('active');
+            } else {
+                $('.float').removeClass('active');
+                $('.menu-mobile').removeClass('active');
+            }
+            // $('body').wrap( "<div class='float'></div>" );
+
+        });
+    </script>
     </body>
 </html>

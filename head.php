@@ -16,6 +16,26 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="menu-mobile">
+        <a class="list" href="index.php">Home</a>
+        <a class="list" href="koleksi_buku.php">List Book</a>
+        <a class="list" href="anggota.php">Member</a>
+        <a class="list" href="admin.php">List Admin</a>
+        <a class="list" href="logout.php">Log-Out</a>
+    </div>
+    
+    <div id="menu-toggle">
+        <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="cross">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="float">
     <nav>
         <div class="grid">
             <h1><a href="index.php?page=1">perpuss</a></h1>

@@ -2,7 +2,7 @@
 <header>
         <div class="grid">
             <p>Selamat datang di,</p>
-            <h1>Perpustakaan Universitas Bung Karno</h1>
+            <h1>Perpustakaanku</h1>
             <p class="sub">Temukan berbagai macam buku yang menarik dari berbagai macam koleksi yang tersedia</p>
             <!-- <form class="search" id="cari" name="cari" method="POST" action="cari.php">
                 <select name="point">
